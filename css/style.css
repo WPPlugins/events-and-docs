@@ -1,0 +1,60 @@
+/*** Events and Docs' style ***/
+
+#eventsndocs {}
+.eventsndocs_wrap {margin-bottom: 30px;}
+
+/*** related docs ***/
+#docsnevent_wrap {}
+.docsnevent {}
+.docsnevent_thumb {} /* class of the thumbnail */
+.docsnevent iframe {width: 100%!important;height:auto!important;}
+.docsnevent a.more-link {display: none;}
+.eventsndocs_info {}
+
+/*** event metas ***/
+.eventsndocs_metas {}
+.eventsndocs_metas p {color:gray; padding:0 0 6px 0!important;}
+.eventsndocs_status {margin:0;}
+.eventsndocs_status .event_ended {text-decoration:line-through;}
+.eventsndocs_meta {}
+.eventsndocs_meta_date {}
+.eventsndocs_meta_date span {display:-webkit-box;}
+.eventsndocs_meta_time {display:-webkit-box;}
+.eventsndocs_meta_time span {}
+.eventsndocs_meta_location {}
+.eventsndocs_meta_location span{display:-webkit-box;}
+.eventsndocs_meta_link {}
+
+/*** event who ***/
+#eventsdocs_orgs {}
+#eventsdocs_orgs h4{}
+#eventsdocs_orgs div{}
+#eventsdocs_orgs div a{}
+#eventsdocs_orgs div a img{}
+#eventsdocs_sponsors {}
+#eventsdocs_sponsors h4{}
+#eventsdocs_sponsors div{}
+#eventsdocs_sponsors div a{}
+#eventsdocs_sponsors div a img{}
+
+/*** map ***/
+#map {width:100%;}
+.leaflet-popup-pane img {
+    width: 100%!important;
+    height: auto;
+}
+#map_filter{}
+//filter buttons
+#filter_events{}
+.efilter_next{outline: none;}
+.efilter_still{outline: none;}
+.efilter_ended{outline: none;}
+.efilter_all{outline: none;}
+
+
+/*** Mobile ***/
+@media screen and (max-width:767px) {
+    #eventsndocs .eventsndocs-metas {width:100%;}
+    #eventsndocs .eventsndocs-info {width:100%; float:left;}
+    #eventsndocs .eventsndocs-image {width:100%; float:left; margin:0.3em 0 0.3em 0;}
+}

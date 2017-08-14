@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events and Docs\n"
+"POT-Creation-Date: 2016-08-31 23:51+0200\n"
+"PO-Revision-Date: 2016-09-29 08:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eventsndocs.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dashboard.php:6 dashboard.php:19
+msgid "Events"
+msgstr "Eventos"
+
+#: dashboard.php:7
+msgid "All Events"
+msgstr "Todos los Eventos"
+
+#: dashboard.php:8
+msgid "Event"
+msgstr "Evento"
+
+#: dashboard.php:9
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: dashboard.php:10
+msgid "Add New Event"
+msgstr "Agregar nuevo evento"
+
+#: dashboard.php:11
+msgid "Edit Event"
+msgstr "Editar evento"
+
+#: dashboard.php:12
+msgid "New Event"
+msgstr "Nuevo Evento"
+
+#: dashboard.php:13
+msgid "View Event"
+msgstr "Ver Evento"
+
+#: dashboard.php:14
+msgid "Search Events"
+msgstr "Buscar Eventos"
+
+#: dashboard.php:15
+msgid "No events found"
+msgstr "No se han encontrado eventos"
+
+#: dashboard.php:16
+msgid "No events found in Trash"
+msgstr "No se han encontrado eventos en la papelera"
+
+#: dashboard.php:35
+msgid "Event Categories"
+msgstr "Categorías de eventos"
+
+#: dashboard.php:43 metaboxes.php:57
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: dashboard.php:44 metaboxes.php:61
+msgid "End date"
+msgstr "Finaliza"
+
+#: dashboard.php:45 metaboxes.php:75
+msgid "Location"
+msgstr "Lugar"
+
+#: eventsndocs.php:80
+msgid "Prev"
+msgstr "Ant"
+
+#: eventsndocs.php:81
+msgid "Next"
+msgstr "Siguiente"
+
+#: metaboxes.php:7
+msgid "Event Info"
+msgstr "Información de evento"
+
+#: metaboxes.php:13
+msgid "Post related with some Event"
+msgstr "Post relacionado con algún Evento"
+
+#: metaboxes.php:55
+msgid "When"
+msgstr "Cuando"
+
+#: metaboxes.php:58 metaboxes.php:62
+msgid "Use datepicker"
+msgstr "Usar el datepicker"
+
+#: metaboxes.php:65
+msgid "Time"
+msgstr "Hora"
+
+#: metaboxes.php:66
+msgid "Example: 17:00 - 20:30"
+msgstr "Ejemplo: 17:00-20:30"
+
+#: metaboxes.php:70
+msgid "Hide date & time"
+msgstr "Ocultar fecha y hora"
+
+#: metaboxes.php:73
+msgid "Where"
+msgstr "Dónde"
+
+#: metaboxes.php:76
+msgid "Example: La Habana, Cuba"
+msgstr "Ejemplo: La Habana, Cuba"
+
+#: metaboxes.php:83
+msgid "Link"
+msgstr "Enlace"
+
+#: metaboxes.php:84
+msgid "Example: wordpress.org"
+msgstr "Ejemplo: wordpress.org"
+
+#: metaboxes.php:88
+msgid "Open link in new window"
+msgstr "Abrir enlace en una ventana nueva"
+
+#: metaboxes.php:91
+msgid "Who"
+msgstr "Quién"
+
+#: metaboxes.php:92
+msgid ""
+"One organizer or sponsor per line, in this way: the name, then an asterisk "
+"followed by the link (if needed), then an asterisk followed by the url of "
+"the logo (if preferred)"
+msgstr ""
+"Un organizador o patrocinador por línea, de esta manera: el nombre, a "
+"continuación un asterisco seguido por el enlace (si es necesario), a "
+"continuación un asterisco seguido de la url del logo (si se prefiere)"
+
+#: metaboxes.php:94
+msgid "Event Organizers"
+msgstr "Organizadores del evento"
+
+#: metaboxes.php:95
+msgid "Example: OCDH * http://observacuba.org"
+msgstr "Ejemplo: OCDH * http://observacuba.org"
+
+#: metaboxes.php:98
+msgid "Event Sponsors"
+msgstr "Patrocinadores del evento"
+
+#: metaboxes.php:99
+msgid "Example: SPONSOR * http://imsponsor.com * http://imsponsor.com/logo.png"
+msgstr ""
+"Ejemplo: SPONSOR * http://imsponsor.com * http://imsponsor.com/logo.png"
+
+#: metaboxes.php:110
+msgid ""
+"Please, select an Event below if the current post is related with such event."
+msgstr ""
+"Por favor, seleccione un Evento si la entrada actual está relacionada con "
+"tal evento."
+
+#: metaboxes.php:116
+msgid "(Post non related with any Event)"
+msgstr "(Post no relacionado con ningún evento)"
+
+#: metaboxes.php:129
+msgid "No Events created or published at this moment..."
+msgstr "No hay eventos creados o publicados en este momento..."
+
+#: optionspage.php:13
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: optionspage.php:16
+msgid "EVENTSnDOCs Plugin Options"
+msgstr "Opciones del Plugin EVENTSnDOCs"
+
+#: optionspage.php:35
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: optionspage.php:36
+msgid "Map Settings"
+msgstr "Ajustes del Mapa"
+
+#: optionspage.php:37
+msgid "On Uninstall"
+msgstr "Al desinstalar"
+
+#: optionspage.php:61
+msgid "Preferred date format"
+msgstr "Formato de fecha preferido"
+
+#: optionspage.php:62
+msgid "Settings of the map"
+msgstr "Ajustes del Mapa"
+
+#: optionspage.php:63
+msgid "Choose what to do..."
+msgstr "Elija qué hacer..."
+
+#: optionspage.php:84
+msgid "Write your preferred PHP date format (for example: <em>j m, Y</em>)"
+msgstr ""
+"Escriba su formato de fecha de PHP preferido (por ejemplo: <em>j m, Y</em>)"
+
+#: optionspage.php:96
+msgid "Initial Coordinates"
+msgstr "Coordenadas iniciales"
+
+#: optionspage.php:98
+msgid ""
+"Write your preferred <em>lat,lng</em> initial coordinates to show on empty "
+"post's maps (for example: <em>23.072097, -82.468600</em>)"
+msgstr ""
+"Escriba sus coordenadas iniciales (<em>lat,lng</em>) para mostrar "
+"inicialmente en las entradas (por ejemplo: <em>23.072097,-82.468600</em>)"
+
+#: optionspage.php:100
+msgid "Initial Zoom"
+msgstr "Zoom inicial"
+
+#: optionspage.php:102
+msgid ""
+"Write your preferred initial zoom to show on empty post's maps (<em>from 0 "
+"to 18</em>)"
+msgstr "Escriba su zoom inicial preferido (<em>de 0 a 18</em>)"
+
+#: optionspage.php:105
+msgid "Instead, always zoom to fit all markers"
+msgstr "Hacer siempre zoom para encajar todos los marcadores"
+
+#: optionspage.php:106
+msgid "Fit the map to the bounds of markers."
+msgstr "Ajustar el mapa a los límites de los marcadores."
+
+#: optionspage.php:113
+msgid "Keep events, settings and related posts"
+msgstr "Mantener eventos, configuraciones y documentos relacionados"
+
+#: optionspage.php:114
+msgid "Delete events and settings, keep related posts"
+msgstr "Eliminar eventos y configuración, mantener documentos relacionados"
+
+#: optionspage.php:115
+msgid "Delete events and settings, unpublish related posts"
+msgstr "Eliminar eventos y configuración, no publicar documentos relacionados"
+
+#: optionspage.php:116
+msgid "Delete events, settings and related posts"
+msgstr "Borrar eventos, configuraciones y documentos relacionados"
+
+#: optionspage.php:127
+msgid "Choose what to do once uninstalled this plugin"
+msgstr "Elija qué hacer una vez desinstalado este plugin"
+
+#: shortcodes.php:69
+msgid "Next Event"
+msgstr "Próximo Evento"
+
+#: shortcodes.php:76
+msgid "Event already ended ;("
+msgstr "Evento ya finalizado ;("
+
+#: shortcodes.php:79
+msgid "Event being developed ;)"
+msgstr "Evento desarrollándose ;)"
+
+#: shortcodes.php:93
+#, php-format
+msgid "Start date: %s"
+msgstr "Comienza: %s"
+
+#: shortcodes.php:95
+#, php-format
+msgid "End date: %s"
+msgstr "Finaliza: %s"
+
+#: shortcodes.php:97
+#, php-format
+msgid "Time: %s"
+msgstr "Hora: %s"
+
+#: shortcodes.php:100
+msgid "Location:"
+msgstr "Lugar:"
+
+#: shortcodes.php:174
+msgid "There are no documents related to this Event..."
+msgstr "No existen documentos relacionados con este evento..."
+
+#: shortcodes.php:449
+msgid "No events found."
+msgstr "No se han encontrado eventos"
+
+#: shortcodes.php:541
+msgid "Next events"
+msgstr "Próximos eventos"
+
+#: shortcodes.php:543
+msgid "Current events"
+msgstr "Eventos actuales"
+
+#: shortcodes.php:545
+msgid "Ended events"
+msgstr "Concluidos"
+
+#: shortcodes.php:546
+msgid "All events"
+msgstr "Todos los eventos"
+
+#. Plugin Name of the plugin/theme
+msgid "Events and Docs"
+msgstr "Eventos y documentos"
+
+#. Description of the plugin/theme
+msgid ""
+"This is a simple plugin to display a list of events, as well as documents "
+"related."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ernesto Ortiz"
+msgstr ""
+
+#~ msgid "Example: Madrid, Spain"
+#~ msgstr "Ejemplo: Madrid, España"

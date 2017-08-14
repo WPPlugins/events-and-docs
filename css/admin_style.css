@@ -1,0 +1,142 @@
+/*** Events and Docs' admin style ***/
+
+div#eventsndocs-event-metabox h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.1);
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 6px 8px;
+    color: #aaa!important;
+    outline: none!important;
+    border: #ccc;
+    background: rgba(255,255,255,0.6);
+}
+/* Styles placeholder
+for Chrome/Opera/Safari, Firefox 19+, IE 10+, or Firefox 18- */
+.widefat::-webkit-input-placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+.widefat::-moz-placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+.widefat:-ms-input-placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+.widefat:-moz-placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+
+/*** Options page ***/
+#optionspage h2{
+    background:#e8e8e8;
+    color:#008EC2;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+#optionspage form h2{
+    padding: 5px 20px;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    color:#aaa;
+    line-height: 33px;
+    font-size: 19px;
+    background: #f4f4f4;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    text-shadow:none;
+}
+#optionspage form h2:hover{
+    background: #eee;
+}
+#optionspage form h2:hover:after,
+#optionspage form h2.checked:hover:after{
+    font-family: 'dashicons';
+    position:absolute;
+    right:20px;
+    vertical-align: top;
+    padding-right:10px;
+}
+#optionspage form h2:hover:after {
+    content: "\f347";
+}
+#optionspage form h2.checked:hover:after{
+    content: "\f343";
+}
+#optionspage form h2.checked{
+    background: #e4e4e4;
+    color: #a8a8a8;
+    margin-bottom:0;
+}
+#optionspage .form-table{
+    overflow: hidden;
+    display:none;
+    background: #ededed;
+    color: #999;
+    line-height: 1.6em;
+    font-size: 1em;
+    margin-top:-4px;
+    box-shadow: 0px 1px 1px 1px rgba(205,205,205,0.3);
+}
+#optionspage .form-table * {
+    color:#999;
+    font-size:1.04em;
+}
+#optionspage .form-table .description,
+#optionspage .form-table .description * {
+    color:#bbb;
+    font-size: 0.9em;
+}
+#optionspage .form-table th {
+    font-size:1.1em;
+    padding: 30px 40px 0 20px;
+    width:30%;
+    background:#eaeaea;
+}
+#optionspage .form-table td {
+    padding: 30px 20px 30px 40px;
+}
+#optionspage .form-table td h4{
+    margin-top:0;
+}
+#optionspage input#submit {
+    width: 40%;
+    margin: 0 30%;
+    font-size: 1.4em;
+    text-shadow:none;
+}
+#optionspage input#submit:hover{
+    background:#444;border:none;
+}
+
+/** messages **/
+div#setting-error-settings_updated {
+    background: rgba(255,255,255,0.4)!important;
+    color: #aaa!important;
+}
+
+
+/*** events n docs ***/
+input#eventsndocs_location {
+    float: left; width: 90%;
+}
+#btn_geoloc {
+    width:9%;float:right;height:auto;
+    cursor:pointer; color: #ccc;
+}
+#btn_geoloc:hover{color:#aaa;}
+#btn_geoloc:after {
+    font-family: 'dashicons';
+    content: "\f230";
+    line-height:0;font-size:2em;
+}
+#map{
+    width:100%;height:320px;
+}
